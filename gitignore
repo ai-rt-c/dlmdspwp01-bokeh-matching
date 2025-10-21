@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-.venv/
-.env
-artifacts/
-data/
-*.db
-*.html
-*.png
