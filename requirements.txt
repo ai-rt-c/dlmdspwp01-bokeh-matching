@@ -1,0 +1,5 @@
+bokeh>=3.4
+pandas>=2.2
+numpy>=1.26
+SQLAlchemy>=2.0
+pytest>=8.0
