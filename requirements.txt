@@ -1,5 +1,5 @@
-bokeh>=3.4
-pandas>=2.2
-numpy>=1.26
-SQLAlchemy>=2.0
-pytest>=8.0
+bokeh>=3.4,<4
+pandas>=2.2,<4
+numpy>=1.26,<3
+SQLAlchemy>=2.0,<3
+pytest>=8.0,<10
