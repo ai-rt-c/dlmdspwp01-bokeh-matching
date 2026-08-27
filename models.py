@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Dict, List
-import pandas as pd
+
 
 @dataclass
 class MatchResult:
@@ -13,6 +12,7 @@ class MatchResult:
     mse: float
     delta_max_abs: float  # max absolute deviation on training grid
 
+
 @dataclass
 class AssignmentRow:
     x: float
@@ -21,4 +21,4 @@ class AssignmentRow:
     ideal_series: str | None
     residual: float | None
     accepted: bool
-    note: str = ""  # e.g., "exact-x" or "nearest-x"
+    note: str = ""  # e.g., "exact-x" or "rounded-x"

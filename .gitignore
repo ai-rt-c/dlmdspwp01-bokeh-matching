@@ -208,6 +208,7 @@ __marimo__/
 # course-specific artifacts (add these)
 artifacts/
 data/
+examples/data/
 *.db
 *.html
 *.png
